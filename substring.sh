@@ -2,10 +2,10 @@
 
 string="abcdefghiklmnopqrcstuxyz"
 
-echo "${string}"      #abcdefghiklmnopqrstuxyz
-echo "${string:1}"    #bcdefghiklmnopqrstuxyz
-echo "${string:3}"    #defghiklmnopqrstuxyz
-echo "${string:1:8}"  #bcdefghi
+# echo "${string}"      #abcdefghiklmnopqrstuxyz
+# echo "${string:1}"    #bcdefghiklmnopqrstuxyz
+# echo "${string:3}"    #defghiklmnopqrstuxyz
+# echo "${string:1:8}"  #bcdefghi
 
 
 echo "${string#a*c}"   #from starting, shortest match

@@ -1,6 +1,6 @@
 # !/bin/bash
 
-file_path='/homee'
+file_path='/home/arbaaz'
 
 if [[ -d ${file_path} ]]
 then 

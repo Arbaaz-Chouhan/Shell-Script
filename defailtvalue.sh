@@ -10,5 +10,6 @@ echo ${yourfirst}
 
 
 # yourfirst=""
+lastName=""
 result=${lastName-Chouhan}
 echo ${result}
